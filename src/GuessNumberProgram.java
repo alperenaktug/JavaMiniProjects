@@ -9,11 +9,13 @@ public class GuessNumberProgram {
 
         int guess ;
         int attempts = 0 ;
-        int randomNumber = random.nextInt(1,11);
+        int min = 1 ;
+        int max = 101 ;
+        int randomNumber = random.nextInt(min,max);
 
 
         System.out.println("Sayı tahmin etme oyununa hoşgeldiniz !!");
-        System.out.println(" 1-10 arasında bir sayı tahmin edebilirsiniz!! ");
+        System.out.println(" 1-100 arasında bir sayı tahmin edebilirsiniz!! ");
 
 
         do {
